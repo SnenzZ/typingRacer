@@ -12,11 +12,14 @@ surface = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
 timer = pygame.time.Clock()
 fps = 60
 
+def draw_screen():
+    pass
 # loads in assets like fonts and sound effects and music
 run = True
 while run:
     screen.fill('seagreen')
     timer.tick(fps)
+    draw_screen()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
