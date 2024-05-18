@@ -23,3 +23,5 @@ while run:
     pygame.display.flip()
 pygame.quit()
 
+pygame.display.set_caption('Typing Racer in Python!')
+
