@@ -13,6 +13,7 @@ timer = pygame.time.Clock()
 fps = 60
 
 def draw_screen():
+    #screen outlines for background and title bar area
     pass
 # loads in assets like fonts and sound effects and music
 run = True
